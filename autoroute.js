@@ -1,5 +1,5 @@
 'use strict';
-const debug = require('debug')('autoroute');
+const debug = require('debug')('hapi-recursive-route');
 const Path = require('path');
 const walk = require('fs-walk');
 
