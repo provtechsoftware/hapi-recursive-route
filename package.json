@@ -1,0 +1,25 @@
+{
+  "name": "hapi-recursive-route",
+  "version": "0.0.1",
+  "description": "Recursively add routes to Hapi. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/provtechsoftware/hapi-recursive-route.git"
+  },
+  "keywords": [
+    "hapi",
+    "router",
+    "auto",
+    "recursive"
+  ],
+  "author": "Felipe Provenzano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/provtechsoftware/hapi-recursive-route/issues"
+  },
+  "homepage": "https://github.com/provtechsoftware/hapi-recursive-route#readme"
+}
