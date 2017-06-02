@@ -2,7 +2,7 @@
   "name": "hapi-recursive-route",
   "version": "0.0.1",
   "description": "Recursively add routes to Hapi. ",
-  "main": "index.js",
+  "main": "autoroute.js",
   "scripts": {
     "test": "test"
   },
