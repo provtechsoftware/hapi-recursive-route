@@ -15,7 +15,7 @@ exports.register = (server, baseOptions, next) => {
 			const modulePath = Path.join(dir, filename);
 			debug('Registering:', modulePath);
             const routeFile = require(modulePath);
-            routeFile.routes(server);
+            server.route(routeFile.routes);
 		}
 		next();
 	}, (err)=>{
@@ -23,12 +23,11 @@ exports.register = (server, baseOptions, next) => {
 			return next(err);
 		}
 
-		debug('Ended');
+		debug('Success');
 		return next();
 	});
 };
 
 exports.register.attributes = {
-	name: 'AutoRoutes',
-    version: '0.0.1'
+	pkg: require('./package.json')
 };
